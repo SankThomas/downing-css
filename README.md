@@ -23,6 +23,10 @@
 2. Add classes for background and text colors.
 3. Add linear, diamond and radial gradients.
 
+## Side Note
+
+- The `index.html` file you see is just for me testing to make sure that everything is working as it should. I will delete it when I publish the first version.
+
 ## Contributing
 
 - If you want to add something to downing, make a pull request. Only PRs that add onto this or add something interesting will be merged so as not to pollute the repository.
