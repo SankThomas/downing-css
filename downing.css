@@ -1,0 +1,256 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Buttons */
+.btn-red {
+  background-color: #eb4444;
+  padding: 8px 20px;
+  border: 2px solid #eb4444;
+  color: #ffffff;
+  transition: background-color 0.4s ease-in-out;
+  user-select: none;
+}
+
+.btn-red:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #eb4444;
+}
+
+.btn-green {
+  background-color: #319b31;
+  padding: 8px 20px;
+  border: 2px solid #319b31;
+  color: #fff;
+  transition: background-color 0.4s ease-in-out;
+  user-select: none;
+}
+
+.btn-green:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #319b31;
+}
+
+.btn-orange {
+  background-color: orange;
+  padding: 8px 20px;
+  border: 2px solid orange;
+  color: #fff;
+  transition: background-color 0.4s ease-in-out;
+  user-select: none;
+}
+
+.btn-orange:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: orange;
+}
+
+.btn-yellow {
+  background-color: #ecec3b;
+  padding: 8px 20px;
+  border: 2px solid #ecec3b;
+  color: #42420e;
+  transition: background-color 0.4s ease-in-out;
+  user-select: none;
+}
+
+.btn-yellow:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #42420e;
+}
+
+.btn-skyblue {
+  background-color: #87ceeb;
+  padding: 8px 20px;
+  border: 2px solid #87ceeb;
+  color: #fff;
+  transition: background-color 0.4s ease-in-out;
+  user-select: none;
+}
+
+.btn-skyblue:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #87ceeb;
+}
+
+.btn-purple {
+  background-color: #800080;
+  padding: 8px 20px;
+  border: 2px solid #800080;
+  color: #fff;
+  transition: background-color 0.4s ease-in-out;
+  user-select: none;
+}
+
+.btn-purple:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #800080;
+}
+
+.btn-pink {
+  background-color: magenta;
+  padding: 8px 20px;
+  border: 2px solid magenta;
+  color: #fff;
+  transition: background-color 0.4s ease-in-out;
+  user-select: none;
+}
+
+.btn-pink:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: magenta;
+}
+/* End of buttons */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+/* Paragraphs/text font size */
+.small {
+  font-size: 12px;
+}
+
+.normal {
+  font-size: 16px;
+}
+
+.medium {
+  font-size: 20px;
+}
+
+.large {
+  font-size: 24px;
+}
+
+.extra-large {
+  font-size: 28px;
+}
+/* End of paragraphs/text font size */
+
+/* Heading font-size */
+.heading-sm {
+  font-size: 24px;
+}
+
+.heading-normal {
+  font-size: 30px;
+}
+
+.heading-medium {
+  font-size: 36px;
+}
+
+.heading-large {
+  font-size: 42px;
+}
+
+.heading-ex-large {
+  font-size: 46px;
+}
+/* End of heading font-size */
+
+a,
+button,
+input {
+  font-family: inherit;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 28px;
+  }
+
+  h6 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1100px;
+    margin: auto;
+  }
+}
