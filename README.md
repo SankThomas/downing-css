@@ -17,6 +17,12 @@
 
 - Yes, you can use it as often and as many times you want in your projects.
 
+## Todos
+
+1. Minify the css file - highest priority.
+2. Add classes for background and text colors.
+3. Add linear, diamond and radial gradients.
+
 ## Contributing
 
 - If you want to add something to downing, make a pull request. Only PRs that add onto this or add something interesting will be merged so as not to pollute the repository.
