@@ -1,0 +1,19 @@
+{
+  "name": "downing-css",
+  "version": "1.0.0",
+  "description": "A simple css file to reduce the default repetition for web developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SankThomas/downing-css.git"
+  },
+  "keywords": [
+    "downing css",
+    "css"
+  ],
+  "author": "Thomas Sankara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SankThomas/downing-css/issues"
+  },
+  "homepage": "https://github.com/SankThomas/downing-css#readme"
+}
